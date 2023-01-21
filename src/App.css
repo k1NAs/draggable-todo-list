@@ -1,0 +1,67 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+	min-height: 100vh;
+	width: 100%;
+	background-color: #222222;
+}
+
+input {
+	height: 40px;
+	width: 300px;
+	border: none;
+	border-bottom: 1px solid whitesmoke;
+	background: none;
+	color: white;
+	padding: 0 10px;
+	font-size: 14px;
+	outline: none;
+}
+
+.btn__add {
+	width: 100px;
+	height: 45px;
+	font-size: 16px;
+	background: none;
+	border: 1px solid whitesmoke;
+	color: whitesmoke;
+	margin-left: 15px;
+}
+
+.btn__add:hover {
+	background: whitesmoke;
+	color: #222222;
+	cursor: pointer;
+}
+
+.todo__task {
+	position: absolute;
+	cursor: move;
+	min-width: 215px;
+	color: black;
+	padding: 1em;
+	border-radius: 5px;
+}
+
+.btn__del {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	background: none;
+	border: none;
+}
+.btn__del:hover {
+	color: red;
+	cursor: pointer;
+}
