@@ -25,10 +25,6 @@ function App() {
 				color: randomColor({
 					luminosity: 'light'
 				}),
-				defaultPos: {
-					x: 1600,
-					y: -1000
-				}
 			}
 			setTasks((tasks) => [...tasks, newTask]);
 			setTask('')
@@ -72,6 +68,7 @@ function App() {
 			tasks.map((task, index) =>{
 
 				return (
+					
 					<Draggable 
 						key={index}
 						defaultPosition={task.defaultPos}
@@ -91,13 +88,11 @@ function App() {
 								X
 							</button>
 						</div>
-
-
-
 					</Draggable>
-				)
-			})
-		}
+					)
+				})
+			
+			}
 
    	</div>
 

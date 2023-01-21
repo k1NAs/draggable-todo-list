@@ -52,6 +52,8 @@ input {
 	color: black;
 	padding: 1em;
 	border-radius: 5px;
+	left: 45%;
+	top: 30%;
 }
 
 .btn__del {
