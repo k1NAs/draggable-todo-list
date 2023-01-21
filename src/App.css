@@ -53,7 +53,7 @@ input {
 	padding: 1em;
 	border-radius: 5px;
 	left: 45%;
-	top: 30%;
+	top: 15%;
 }
 
 .btn__del {
@@ -66,4 +66,28 @@ input {
 .btn__del:hover {
 	color: red;
 	cursor: pointer;
+}
+
+@media (max-width: 490px) {
+
+	.wrapper {
+		padding-top: 15px;
+	}
+
+	input {
+		width: 250px;
+		height: 35px;
+		font-size: 12px;
+	}
+
+	.btn__add {
+		width: 70px;
+		height: 35px;
+		font-size: 12px;
+	}
+
+	.todo__task {
+		top: 30%;
+		left: 20%;
+	}
 }
