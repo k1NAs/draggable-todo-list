@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/draggable-todo-react/static/css/main.1ded890f.css",
-    "main.js": "/draggable-todo-react/static/js/main.6d275ac3.js",
-    "index.html": "/draggable-todo-react/index.html",
-    "main.1ded890f.css.map": "/draggable-todo-react/static/css/main.1ded890f.css.map",
-    "main.6d275ac3.js.map": "/draggable-todo-react/static/js/main.6d275ac3.js.map"
+    "main.css": "/draggable-todo-list/static/css/main.1ded890f.css",
+    "main.js": "/draggable-todo-list/static/js/main.be2213ec.js",
+    "index.html": "/draggable-todo-list/index.html",
+    "main.1ded890f.css.map": "/draggable-todo-list/static/css/main.1ded890f.css.map",
+    "main.be2213ec.js.map": "/draggable-todo-list/static/js/main.be2213ec.js.map"
   },
   "entrypoints": [
     "static/css/main.1ded890f.css",
-    "static/js/main.6d275ac3.js"
+    "static/js/main.be2213ec.js"
   ]
 }
